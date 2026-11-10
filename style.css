@@ -79,6 +79,7 @@ footer {
 
 
 
+
 /* PROJECT IMAGES */
 .project-image {
     width: 100%;
@@ -94,4 +95,14 @@ footer {
     color: #64748b;
     margin-top: 5px;
     margin-bottom: 15px;
+}
+
+
+/* PROFILE IMAGE */
+.profile-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
