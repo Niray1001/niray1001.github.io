@@ -89,6 +89,10 @@ footer {
     margin-top: 10px;
 }
 
+.converter-image{
+    max-width: 350px;
+}
+
 /* IMAGE CAPTIONS */
 .image-caption {
     font-size: 13px;
