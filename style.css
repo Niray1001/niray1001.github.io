@@ -11,26 +11,37 @@ body {
 
 
 nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background: #142d4e;
     padding: 20px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: #ffffff;
 }
 
-nav h2, nav a {
+nav h2 {
+    margin: 0;
+}
+
+nav h2 a {
     color: white;
     text-decoration: none;
 }
 
-nav a {
-    margin-left: 20px;
+nav div {
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 
+nav div a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
 
 
 .hero {
