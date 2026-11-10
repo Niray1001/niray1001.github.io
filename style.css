@@ -155,17 +155,18 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
+    padding: 0 10%;
 }
 
 .bottom-info {
     flex: 1;
+    min-width: 0;
 }
 
 .gatech-logo {
-    width: 75px;
+    width: 100px;
     height: auto;
     flex-shrink: 0;
-    margin-right: 100px;
-}
+    margin: 0;
 }
