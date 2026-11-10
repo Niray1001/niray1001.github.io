@@ -165,5 +165,7 @@ footer {
 .gatech-logo {
     width: 75px;
     height: auto;
-    object-fit: contain;
+    flex-shrink: 0;
+    margin-right: 60px;
+}
 }
